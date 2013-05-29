@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+ >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="@string/time_in_state" />
+
+            <GridLayout
+                android:id="@+id/ui_states_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:rowCount="21" >
+
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/ui_states_warning"
+                android:textAllCaps="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/error"
+                android:textColor="#cc0000"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ui_header_additional_states"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="@string/unused_states"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ui_additional_states"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808080"
+                android:textSize="23sp"
+                android:padding="6dp"
+                android:fontFamily="sans-serif-condensed"        
+                android:visibility="gone" />
+        </LinearLayout>
+        
+        <Space 
+            android:layout_width="5dp"
+            android:layout_height="fill_parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="@string/kernel_info" />
+
+            <TextView
+                android:id="@+id/ui_kernel_string"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:fontFamily="sans-serif-condensed"        
+                android:textColor="#808080"
+                android:textSize="20sp" />
+        </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
