@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Tempo na frequ�ncia</string>
+    <string name="kernel_info">Info da Kernel</string>
+    <string name="unused_states">Estados da CPU n�o usadosUnused CPU states</string>
+    <string name="error">Nenhum arquivo de estado encontrado. Voc� tem certeza que seu aparelho � compat�vel?\n\nSe voc� estiver usando uma ROM ou kernel customizada, tente contatar o desenvolvedor dessa para lhe informar que os arquivo de estados � ilegivel.</string>
+    <string name="reset_timers">Reiniciar contagem</string>
+    <string name="restore_timers">Restaurar contagem</string>
+    <string name="toast">Atualizar estados</string>
+    <string name="about">Info</string>
+    <string name="thanks">Agradecimentos</string>
+    <string name="to_brandon_valosek">Um agradecimento especial a Brandon Valosek, desenvolvedor original do CPU Spy, pelo seu incr�vel app e por o fazer open source. Foi um dos meus primeiros apps Android que instalei, mas eu queria deixar as pessoas vessem o meu redesign do app. Mais un agradecimento a Nick Butcher e Roman Nurik pela inspira��o para o design com o projeto "Android Design in Action". Ultimos agradecimentos a Comunidade de Desenvolvedores XDA e HDBlog onde aprendi um pouco sobre desenvolvimento. E aos meus amigos do Androidiani, claro!</string>
+    <string name="sources">Fontes</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino tamb�m conhecido por Mirko ddd</string>
+</resources>

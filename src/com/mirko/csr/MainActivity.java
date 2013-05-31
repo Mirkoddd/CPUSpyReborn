@@ -5,6 +5,7 @@ package com.mirko.csr;
 // imports
 import java.util.ArrayList;
 import java.util.List;
+
 import com.mirko.csr.CpuStateMonitor.CpuState;
 import com.mirko.csr.CpuStateMonitor.CpuStateMonitorException;
 

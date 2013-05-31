@@ -39,7 +39,7 @@ public class Sources extends Fragment {
 		mMirkoSource.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            	Uri uri = Uri.parse("linkhere");
+            	Uri uri = Uri.parse("https://github.com/mirkoddd/cpuspyreborn");
             	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             	 startActivity(intent);
             }

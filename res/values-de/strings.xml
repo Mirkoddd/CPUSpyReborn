@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Zeit pro Frequenz</string>
+    <string name="kernel_info">Kernel Info</string>
+    <string name="unused_states">Ungebrauchte Frequenzen</string>
+    <string name="error">Frequenzinformationen nicht gefunden. Sind Sie sicher, dass Ihr Telefon kompatibel ist? Wenn nicht, und Sie gebrauchen eine Custom Rom/einen Custom Kernel, fragen Sie den Entwickler, warum das Auslesen der Frequenzen nicht funktioniert.</string>
+    <string name="reset_timers">Timer zurücksetzen</string>
+    <string name="restore_timers">Timer rekonstruieren</string>
+    <string name="toast">Informationen updaten</string>
+    <string name="about">Info</string>
+    <string name="thanks">Dank</string>
+    <string name="to_brandon_valosek">Spezieller Dank geht an Brandon Valosek, den ursprünglichen Entwickler von CPU Spy, für seine phantastische App und die Möglichkeit, sie als Open Source zu gebrauchen. CPU Spy war seinerzeit eine der ersten Apps, die ich überhaupt installiert habe, und ich freue mich, dass ich nun die Gelegenheit habe, der App neues Leben einzuhauchen und meine Interpretation zu veröffentlichen. Nick Butcher und Romeinse Nurik, Dank für Eure Inspiration und den Entwurf mit der „Android Design in Action“ Reihe. Last but not least Dank an die XDA Developer Community und an HDBlog, wo ich einiges zum Thema App-Entwicklung gelernt habe. Und an meine Androidiani Freunde natürlich.</string>
+    <string name="sources">Sources</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
+</resources>

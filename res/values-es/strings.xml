@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Tiempo en estado de frecuencia</string>
+    <string name="kernel_info">Información sobre el Kernel</string>
+    <string name="unused_states">Frequencias no utilizadas</string>
+    <string name="error">No se encontró ningun archivo de estado de frecuencias. Está seguro que su teléfono es compatible? \n\n Si usted esta utilizando una ROM o kernel modificados, trate de contactar a su autor para informarle que su archivo de estado de frecuencias no permite lectura.</string>
+    <string name="reset_timers">Inicializar los contadores</string>
+    <string name="restore_timers">Restaurar los contadores</string>
+    <string name="toast">Actualizar</string>
+    <string name="about">Informaciones</string>
+    <string name="thanks">Agradecimientos</string>
+    <string name="to_brandon_valosek">Gracias a Brandon Valosek, el desarrollador original de CPU Spy, por su maravillosa aplicacion y por haberla liberado a Open Source. Esta ha sido una de las primeras aplicaciones Android que yo instalé y queria que el mundo la viera a travez de mis ojos al re diseñarla. Otro agradecimiento va para Nick Butcher y Roman Nurik por la inspiración del diseño con la serie denominada "Android Design in Action". Finalmente, gracias a la comunidad de XDA Developers y al blog HDBlog en donde he aprendido sobre desarrollo para Android. Tambien gracias a los amigos de Androidiani! </string>
+    <string name="sources">Sources</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
+</resources>

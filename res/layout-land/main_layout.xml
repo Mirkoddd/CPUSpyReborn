@@ -30,9 +30,8 @@
                 android:paddingBottom="10dp"
                 android:rowCount="21" >
 
-
             </GridLayout>
-
+            
             <TextView
                 android:id="@+id/ui_states_warning"
                 android:textAllCaps="true"
