@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Tijd per frequentie</string>
+    <string name="kernel_info">Kernel Info</string>
+    <string name="unused_states">Ongebruikte frequenties</string>
+    <string name="error">Frequentie status info niet gevonden. Weet u zeker dat uw telefoon compatible is? Zo niet, als u een custom rom of kernel gebruikt informeer dan bij de maker ervan waarom de status niet kan worden gelezen</string>
+    <string name="reset_timers">Reset Timers</string>
+    <string name="restore_timers">Herstel Timers</string>
+    <string name="toast">Update Status</string>
+    <string name="about">Info</string>
+    <string name="thanks">Dankwoord</string>
+    <string name="to_brandon_valosek">Een speciaal woord van dank aan Brandon Valosek, oorspronkelijk CPU spion ontwikkelaar, voor zijn geweldige app en voor het maken van het open source ervan. Het was een van de eerste android app die ik ooit geinstalleerd heb, en ik heb het opnieuw vorm willen geven om mensen er door mijn ogen naar te laten kijken. Nick Butcher en Roman Nurik bedankt voor de inspiratie voor het ontwerp met "Android Design in Actie"-reeks. Mijn laatste dank gaat uit naar de XDA Developer Community en HDBlog waar ik iets heb opgepikt over ontwikkeling van apps. En mijn Androidiani vrienden natuurlijk!</string>
+    <string name="sources">Bronnen</string>
+</resources>
