@@ -11,6 +11,9 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.mirko.csr.util.CpuStateMonitor;
+
+
 import android.app.Application;
 import android.content.SharedPreferences;
 import android.util.Log;

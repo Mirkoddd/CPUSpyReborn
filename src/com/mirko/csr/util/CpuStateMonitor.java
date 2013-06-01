@@ -1,6 +1,6 @@
 /** Mirko Dimartino, 2013 <mirkoddd@gmail.com> */
 
-package com.mirko.csr;
+package com.mirko.csr.util;
 
 // imports
 import java.io.BufferedReader;

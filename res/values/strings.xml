@@ -16,4 +16,8 @@
     <string name="sources_text2">Brandon Valosek</string>
     <string name="sources_text3">CPU Spy Reborn</string>
     <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
+    <string name="device">Device</string>
+    <string name="contributors">Contributors</string>
+    <string name="translators">Translators</string>
+    <string name="testers">Testers</string>
 </resources>

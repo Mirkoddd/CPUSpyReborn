@@ -72,7 +72,8 @@ public final class R {
         public static final int main_layout=0x7f030004;
         public static final int sources=0x7f030005;
         public static final int state_layout=0x7f030006;
-        public static final int thanks=0x7f030007;
+        public static final int testers_translators=0x7f030007;
+        public static final int thanks=0x7f030008;
     }
     public static final class menu {
         public static final int main_menu=0x7f070000;
@@ -80,6 +81,8 @@ public final class R {
     public static final class string {
         public static final int about=0x7f040009;
         public static final int app_name=0x7f040001;
+        public static final int contributors=0x7f040012;
+        public static final int device=0x7f040011;
         public static final int error=0x7f040005;
         public static final int hello=0x7f040000;
         public static final int kernel_info=0x7f040003;
@@ -90,10 +93,12 @@ public final class R {
         public static final int sources_text2=0x7f04000e;
         public static final int sources_text3=0x7f04000f;
         public static final int sources_text4=0x7f040010;
+        public static final int testers=0x7f040014;
         public static final int thanks=0x7f04000a;
         public static final int time_in_state=0x7f040002;
         public static final int to_brandon_valosek=0x7f04000b;
         public static final int toast=0x7f040008;
+        public static final int translators=0x7f040013;
         public static final int unused_states=0x7f040004;
     }
     public static final class style {

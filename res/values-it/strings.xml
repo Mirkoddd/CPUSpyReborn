@@ -12,4 +12,8 @@
     <string name="thanks">Ringraziamenti</string>
     <string name="to_brandon_valosek">Un ringraziamento speciale a Brandon Valosek, sviluppatore originale di CPU spy, per la sua app e per averla resa open source. La sua è stata una delle prime app che ho installato, ma volevo che tutti la guardassero attraverso i miei occhi, per questo la ho ridisegnata. Un ultimo grazie alla community di XDA Developers, HDBlog e anche gli amici Androidiani!</string>
     <string name="sources">Sorgenti</string>
+    <string name="device">Dispositivo</string>
+    <string name="contributors">Contributori</string>
+    <string name="translators">Traduttori</string>
+    <string name="testers">Testers</string>
 </resources>

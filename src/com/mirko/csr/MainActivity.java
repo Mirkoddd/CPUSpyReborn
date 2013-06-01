@@ -6,14 +6,13 @@ package com.mirko.csr;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mirko.csr.CpuStateMonitor.CpuState;
-import com.mirko.csr.CpuStateMonitor.CpuStateMonitorException;
-
 import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -27,11 +26,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import android.support.v4.app.FragmentActivity;
-import android.util.Log;
+import com.mirko.csr.util.CPUSpyRebornTool;
+import com.mirko.csr.util.CpuStateMonitor;
+import com.mirko.csr.util.CpuStateMonitor.CpuState;
+import com.mirko.csr.util.CpuStateMonitor.CpuStateMonitorException;
 
 /** main activity class */
-public class MainActivity extends FragmentActivity
+public class MainActivity extends Activity
 {
     private static final String TAG = "Cpu Spy Reborn";
 
@@ -141,7 +142,7 @@ public class MainActivity extends FragmentActivity
         switch (item.getItemId()) {
 
         case R.id.menu_about:
-        	Intent launchNewIntent = new Intent(MainActivity.this,About.class);
+        	Intent launchNewIntent = new Intent(MainActivity.this,AboutFragment.class);
         	startActivityForResult(launchNewIntent, 0);
         	break;
         case R.id.menu_reset:

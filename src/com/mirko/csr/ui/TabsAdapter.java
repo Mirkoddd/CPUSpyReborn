@@ -1,4 +1,4 @@
-package com.mirko.csr;
+package com.mirko.csr.ui;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;

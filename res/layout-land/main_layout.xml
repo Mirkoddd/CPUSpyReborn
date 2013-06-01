@@ -85,7 +85,7 @@
 
         <TextView
                 style="?android:attr/listSeparatorTextViewStyle"
-                android:text="device" />
+                android:text="@string/device" />
 
             <TextView
                 android:id="@+id/ui_device_string"

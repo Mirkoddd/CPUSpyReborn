@@ -1,4 +1,4 @@
-package com.mirko.csr;
+package com.mirko.csr.util;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

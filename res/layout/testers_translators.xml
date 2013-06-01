@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="vertical" >
+
+       <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="@string/translators" />
+        
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Mirko ddd"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="tlf55"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="dikkebas"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Felimenta97"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="churapa"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+                
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="robertocd"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="pyler"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Jense999"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="@string/testers" />
+        
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Danny 92"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Brian Carr"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Lars M. Hansen"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Sergiusz Roszczyk"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>
