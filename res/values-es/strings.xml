@@ -2,15 +2,15 @@
 <resources>
     <string name="app_name">CPU Spy Reborn</string>
     <string name="time_in_state">Tiempo en estado de frecuencia</string>
-    <string name="kernel_info">Información sobre el Kernel</string>
-    <string name="unused_states">Frequencias no utilizadas</string>
-    <string name="error">No se encontró ningun archivo de estado de frecuencias. Está seguro que su teléfono es compatible? \n\n Si usted esta utilizando una ROM o kernel modificados, trate de contactar a su autor para informarle que su archivo de estado de frecuencias no permite lectura.</string>
-    <string name="reset_timers">Inicializar los contadores</string>
+    <string name="kernel_info">Información sobre el kérnel</string>
+    <string name="unused_states">Frecuencias no utilizadas</string>
+    <string name="error">No se encontró ningun archivo de estado de frecuencias. ¿Está seguro de que su teléfono es compatible?\n\nSi usted está utilizando una ROM o kérnel modificados, trate de contactar con su creador para informarle que su archivo de estado de frecuencias no permite lectura.</string>
+    <string name="reset_timers">Reiniciar los contadores</string>
     <string name="restore_timers">Restaurar los contadores</string>
     <string name="toast">Actualizar</string>
-    <string name="about">Informaciones</string>
+    <string name="about">Información</string>
     <string name="thanks">Agradecimientos</string>
-    <string name="to_brandon_valosek">Gracias a Brandon Valosek, el desarrollador original de CPU Spy, por su maravillosa aplicacion y por haberla liberado a Open Source. Esta ha sido una de las primeras aplicaciones Android que yo instalé y queria que el mundo la viera a travez de mis ojos al re diseñarla. Otro agradecimiento va para Nick Butcher y Roman Nurik por la inspiración del diseño con la serie denominada "Android Design in Action". Finalmente, gracias a la comunidad de XDA Developers y al blog HDBlog en donde he aprendido sobre desarrollo para Android. Tambien gracias a los amigos de Androidiani! </string>
+    <string name="to_brandon_valosek">Gracias a Brandon Valosek, desarrollador original de CPU Spy, por su maravillosa aplicación y por haberla liberado a Open Source. Ésta fue una de las primeras aplicaciones Android que instalé y quería que el mundo la viera a través de mis ojos al rediseñarla. Otro agradecimiento para Nick Butcher y Roman Nurik por la inspiración en el diseño con la serie denominada "Android Design in Action". Finalmente, gracias a la comunidad de XDA-Developers y al blog HDBlog en donde he aprendido algo sobre desarrollo para Android. Y a los a los amigos de Androidiani por supuesto!</string>
     <string name="sources">Sources</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
