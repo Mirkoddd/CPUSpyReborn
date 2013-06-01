@@ -39,7 +39,8 @@ public class CpuSpyReborn extends Application {
         updateKernelVersion();
     }
 
-    /** @return the kernel version string */
+
+	/** @return the kernel version string */
     public String getKernelVersion() {
         return _kernelVersion;
     }

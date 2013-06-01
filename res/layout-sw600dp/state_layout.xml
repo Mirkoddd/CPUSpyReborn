@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ui_state_card"
-    android:layout_width="280dp"
+    android:layout_width="285dp"
     android:layout_height="wrap_content"
     android:background="@drawable/card_normal"
     android:padding="9dp"

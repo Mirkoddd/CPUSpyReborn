@@ -45,6 +45,8 @@ public class MainActivity extends FragmentActivity
     private TextView        _uiHeaderTotalStateTime = null;
     private TextView        _uiStatesWarning = null;
     private TextView        _uiKernelString = null;
+    private TextView        _uiCurrentROMString = null;
+    private TextView        _uiDeviceString = null;
 
     /** whether or not we're updating the data in the background */
     private boolean     _updatingData = false;
@@ -119,6 +121,8 @@ public class MainActivity extends FragmentActivity
         _uiHeaderAdditionalStates = (TextView)findViewById(R.id.ui_header_additional_states);
         _uiStatesWarning = (TextView)findViewById(R.id.ui_states_warning);
         _uiTotalStateTime = (Chronometer)findViewById(R.id.ui_total_state_time);
+        _uiCurrentROMString = (TextView)findViewById(R.id.ui_rom_string);
+        _uiDeviceString = (TextView)findViewById(R.id.ui_device_string);
     }
 
     /** called when we want to inflate the menu */
@@ -216,6 +220,9 @@ public class MainActivity extends FragmentActivity
 
         // kernel line
         _uiKernelString.setText(_app.getKernelVersion());
+        // rom line
+        _uiCurrentROMString.setText(CPUSpyRebornTool.getROMVersion());
+        _uiDeviceString.setText(CPUSpyRebornTool.getDevice());
     }
 
     /** Attempt to update the time-in-state info */
@@ -317,7 +324,7 @@ public class MainActivity extends FragmentActivity
             _updatingData = false;
             updateView();
         }
-    }
+    } 
 
     /** logging */
     private void log(String s) {

@@ -70,7 +70,32 @@
                 android:fontFamily="sans-serif-condensed"        
                 android:textColor="#808080"
                 android:textSize="20sp" />
-        </LinearLayout>
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="rom" />
+
+            <TextView
+                android:id="@+id/ui_rom_string"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:fontFamily="sans-serif-condensed"        
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+        <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="device" />
+
+            <TextView
+                android:id="@+id/ui_device_string"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:fontFamily="sans-serif-condensed"        
+                android:textColor="#808080"
+                android:textSize="20sp" />
+            </LinearLayout>
     </ScrollView>
 
 </LinearLayout>

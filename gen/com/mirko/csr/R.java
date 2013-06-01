@@ -43,20 +43,22 @@ public final class R {
     }
     public static final class id {
         public static final int actionbar_total_time_refresh=0x7f080001;
-        public static final int cpuspy_reborn_source=0x7f080009;
-        public static final int cpuspy_source=0x7f080008;
-        public static final int menu_about=0x7f080012;
-        public static final int menu_reset=0x7f080010;
-        public static final int menu_restore=0x7f080011;
-        public static final int scrollView1=0x7f08000f;
+        public static final int cpuspy_reborn_source=0x7f08000b;
+        public static final int cpuspy_source=0x7f08000a;
+        public static final int menu_about=0x7f080014;
+        public static final int menu_reset=0x7f080012;
+        public static final int menu_restore=0x7f080013;
+        public static final int scrollView1=0x7f080011;
         public static final int ui_additional_states=0x7f080006;
-        public static final int ui_bar=0x7f08000d;
-        public static final int ui_duration_text=0x7f08000c;
-        public static final int ui_freq_text=0x7f08000b;
+        public static final int ui_bar=0x7f08000f;
+        public static final int ui_device_string=0x7f080009;
+        public static final int ui_duration_text=0x7f08000e;
+        public static final int ui_freq_text=0x7f08000d;
         public static final int ui_header_additional_states=0x7f080005;
         public static final int ui_kernel_string=0x7f080007;
-        public static final int ui_percentage_text=0x7f08000e;
-        public static final int ui_state_card=0x7f08000a;
+        public static final int ui_percentage_text=0x7f080010;
+        public static final int ui_rom_string=0x7f080008;
+        public static final int ui_state_card=0x7f08000c;
         public static final int ui_states_view=0x7f080003;
         public static final int ui_states_warning=0x7f080004;
         public static final int ui_total_state_time=0x7f080002;
