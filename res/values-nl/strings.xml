@@ -10,6 +10,10 @@
     <string name="toast">Update Status</string>
     <string name="about">Info</string>
     <string name="thanks">Dankwoord</string>
-    <string name="to_brandon_valosek">Een speciaal woord van dank aan Brandon Valosek, oorspronkelijk CPU spion ontwikkelaar, voor zijn geweldige app en voor het maken van het open source ervan. Het was een van de eerste android app die ik ooit geinstalleerd heb, en ik heb het opnieuw vorm willen geven om mensen er door mijn ogen naar te laten kijken. Nick Butcher en Roman Nurik bedankt voor de inspiratie voor het ontwerp met "Android Design in Actie"-reeks. Mijn laatste dank gaat uit naar de XDA Developer Community en HDBlog waar ik iets heb opgepikt over ontwikkeling van apps. En mijn Androidiani vrienden natuurlijk!</string>
+    <string name="to_brandon_valosek">Een speciaal woord van dank aan Brandon Valosek, oorspronkelijk CPU Spy ontwikkelaar, voor zijn geweldige app en dat hij het van open source gemaakt heeft. Het was een van de eerste android apps die ik ooit geinstalleerd heb, en ik heb het opnieuw vorm willen geven om mensen er door mijn ogen naar te laten kijken. Nick Butcher en Romeinse Nurik bedankt voor de inspiratie voor het ontwerp met "Android Design in Actie"-reeks. Mijn laatste dank gaat uit naar de XDA Developer Community en HDBlog waar ik iets heb opgepikt over ontwikkeling van apps. En mijn Androidiani vrienden natuurlijk!</string>
     <string name="sources">Bronnen</string>
+	<string name="device">Toestel</string>
+    <string name="contributors">Met dank aan</string>
+    <string name="translators">Vertalers</string>
+    <string name="testers">Testers</string>
 </resources>

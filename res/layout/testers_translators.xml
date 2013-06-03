@@ -93,6 +93,33 @@
             android:textSize="20sp" />
         
         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="cities516"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="dodikono"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="iron86"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />
+        
+        <TextView
             style="?android:attr/listSeparatorTextViewStyle"
             android:text="@string/testers" />
         

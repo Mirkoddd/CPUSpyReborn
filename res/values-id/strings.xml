@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Status</string>
+    <string name="kernel_info">Info Kernel</string>
+    <string name="unused_states">Mode CPU Non Aktif</string>
+    <string name="error">Tidak ada file mode ditemukan. Apakah sesuai dengan phone kamu?\n\nJika kamu memakai custom ROM atau kernel, cobalah menghubungi pembuatnya karena file mode tidak sesuai kebutuhan.</string>
+    <string name="reset_timers">Reset Waktu</string>
+    <string name="restore_timers">Pemulihan Waktu</string>
+    <string name="toast">Perbaharui Status</string>
+    <string name="about">Info</string>
+    <string name="thanks">Terimakasih</string>
+    <string name="to_brandon_valosek">Terimakasih banyak kepada Brandon Valosek, Pengembang asli CPU spy, untuk aplikasi hebat ini dan menjadikan open source. Merupakan aplikasi pertama yang saya install, tetapi saya ingin semua orang bisa memodifikasinya sesuai kebutuhan. Terimakasih kepada Nick Butcher dan Roman Nurik menginspirasi antarmuka seri "Android Design in Action" . Serta terimakasih kepada komunitas XDA Developer dan HDBlog dimana saya belajar tentang pembuatan aplikasi. dan juga semua teman Androidiani!</string>
+    <string name="sources">Sumber</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino alias Mirko ddd</string>
+</resources>

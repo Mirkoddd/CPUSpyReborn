@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">時間狀態</string>
+    <string name="kernel_info">內核資訊</string>
+    <string name="unused_states">未使用的 CPU 狀態</string>
+    <string name="error">找不到狀態檔案。您確定您的手機已被支援嗎？\n\n如果你在執行一個非官方 ROM 或內核，嘗試聯絡它的開發者並告知他無法讀取狀態檔案。</string>
+    <string name="reset_timers">重設計時器</string>
+    <string name="restore_timers">還原計時器</string>
+    <string name="toast">更新狀態</string>
+    <string name="about">資訊</string>
+    <string name="thanks">感謝</string>
+    <string name="to_brandon_valosek">特別感謝 Brandon Valosek，原本的 CPU spy 開發者，製造這美妙的程式並開放原始碼。這程式是其中一個我第一個安裝的 Android 程式，但是我想要讓人們透過我的眼睛重新設計來看它。另外感謝 Nick Butcher 和 Roman Nurik 提供設計靈感 "Android Design in Action" 系列。最後感謝 XDA Developer Community 和 HDBlog ，在這裡我學習了關於開發的東西。當然少不了 Androidiani 的朋友們！</string>
+    <string name="sources">原始碼</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino 亦稱 Mirko ddd</string>
+    <string name="device">裝置</string>
+    <string name="contributors">貢獻者</string>
+    <string name="translators">翻譯者</string>
+    <string name="testers">測試者</string>
+</resources>

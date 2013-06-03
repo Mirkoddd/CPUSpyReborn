@@ -48,6 +48,8 @@ public class MainActivity extends Activity
     private TextView        _uiKernelString = null;
     private TextView        _uiCurrentROMString = null;
     private TextView        _uiDeviceString = null;
+    private TextView        _uiCpuString = null;
+    private TextView        _uiMemString = null;
 
     /** whether or not we're updating the data in the background */
     private boolean     _updatingData = false;
@@ -124,6 +126,8 @@ public class MainActivity extends Activity
         _uiTotalStateTime = (Chronometer)findViewById(R.id.ui_total_state_time);
         _uiCurrentROMString = (TextView)findViewById(R.id.ui_rom_string);
         _uiDeviceString = (TextView)findViewById(R.id.ui_device_string);
+        _uiCpuString = (TextView)findViewById(R.id.ui_cpu_string);
+        _uiMemString = (TextView)findViewById(R.id.ui_mem_string);
     }
 
     /** called when we want to inflate the menu */
@@ -220,10 +224,15 @@ public class MainActivity extends Activity
         }
 
         // kernel line
-        _uiKernelString.setText(_app.getKernelVersion());
+        _uiKernelString.setText(CPUSpyRebornTool.getFormattedKernelVersion());
         // rom line
         _uiCurrentROMString.setText(CPUSpyRebornTool.getROMVersion());
+        // device line
         _uiDeviceString.setText(CPUSpyRebornTool.getDevice());
+        // cpu model
+        _uiCpuString.setText(CPUSpyRebornTool.getCPUInfo());
+        // memory info
+        _uiMemString.setText(CPUSpyRebornTool.getMemInfo());
     }
 
     /** Attempt to update the time-in-state info */
@@ -252,7 +261,7 @@ public class MainActivity extends Activity
     }
 
     /**
-     * @return a View that correpsonds to a CPU freq state row as specified
+     * @return a View that corresponds to a CPU freq state row as specified
      * by the state parameter
      */
     private View generateStateRow(CpuState state, ViewGroup parent) {
@@ -301,7 +310,7 @@ public class MainActivity extends Activity
     /** Keep updating the state data off the UI thread for slow devices */
     protected class RefreshStateDataTask extends AsyncTask<Void, Void, Void> {
 
-        /** Stuff to do on a seperate thread */
+        /** Stuff to do on a separate thread */
         @Override protected Void doInBackground(Void... v) {
             CpuStateMonitor monitor = _app.getCpuStateMonitor();
             try {

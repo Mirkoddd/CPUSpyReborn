@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_in_state">Čas v stave</string>
+    <string name="kernel_info">Informácie o jadre</string>
+    <string name="unused_states">Nepoužité CPU stavy</string>
+    <string name="error">Nenájdený súbor so stavmi. Ste si istý, že Vaše zariadenie je kompatibilné?\n\nAk používate custom ROM alebo jadro, skúste kontaktovať ich vývojára a spýtať sa ho prečo súbor so stavmi nie je možné čítať.</string>
+    <string name="reset_timers">Resetovať časovače</string>
+    <string name="restore_timers">Obnoviť časovače</string>
+    <string name="toast">Aktualizácia stavov</string>
+    <string name="about">Informácie</string>
+    <string name="thanks">Poďakovanie</string>
+    <string name="to_brandon_valosek">Špeciálne poďakovanie patrí pôvodnému CPU Spy vývojárovi Brandonovi Valosekovi za to, že vytvoril nádhernú aplikáciu a zverejnil jej zdrojové kódy. Táto aplikácia bola jedna z prvých Android aplikácií, ktoré som nainštaloval, a preto som je dizajn prerobil na modernejší. Poďakovanie taktiež patrí Nickovi Butcherovi a Romanovi Nurikovi za dizajnovú inšpiráciu v ich sériách "Android Design in Action". Posledné poďakovanie patrí XDA komunite a HDBlogu, kde som sa naučil niečo o vývoji Android aplikácií. A priateľom z Androidiani samozrejme!</string>
+    <string name="sources">Zdroje</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
+	<string name="device">Zariadenie</string>
+    <string name="contributors">Prispievatelia</string>
+    <string name="translators">Prekladatelia</string>
+    <string name="testers">Testeri</string>
+</resources>
