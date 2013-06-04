@@ -15,7 +15,8 @@
     <string name="sources_text2">Brandon Valosek</string>
     <string name="sources_text3">CPU Spy Reborn</string>
     <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
-	<string name="device">Zariadenie</string>
+    <string name="device">Zariadenie</string>
+    <string name="mem">Pamäť</string>
     <string name="contributors">Prispievatelia</string>
     <string name="translators">Prekladatelia</string>
     <string name="testers">Testeri</string>
