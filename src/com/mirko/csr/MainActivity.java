@@ -43,7 +43,7 @@ public class MainActivity extends Activity
     private TextView        _uiAdditionalStates = null;
     private Chronometer        _uiTotalStateTime = null;
     private TextView        _uiHeaderAdditionalStates = null;
-    private TextView        _uiHeaderTotalStateTime = null;
+//    private TextView        _uiHeaderTotalStateTime = null;
     private TextView        _uiStatesWarning = null;
     private TextView        _uiKernelString = null;
     private TextView        _uiCurrentROMString = null;
@@ -194,7 +194,7 @@ public class MainActivity extends Activity
         // show the red warning label if no states found
         if ( monitor.getStates().size() == 0) {
             _uiStatesWarning.setVisibility(View.VISIBLE);
-            _uiHeaderTotalStateTime.setVisibility(View.GONE);
+//            _uiHeaderTotalStateTime.setVisibility(View.GONE);
             _uiTotalStateTime.setVisibility(View.GONE);
             _uiStatesView.setVisibility(View.GONE);
         }

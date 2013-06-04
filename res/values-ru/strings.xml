@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="hello">Привет народ!</string>
     <string name="app_name">CPU Spy Reborn</string>
-    <string name="time_in_state">Tempo na frequência</string>
-    <string name="kernel_info">Info da Kernel</string>
-    <string name="unused_states">Estados da CPU não usados</string>
-    <string name="error">Nenhum arquivo de estado encontrado. Você tem certeza que seu aparelho é compatível?\n\nSe você estiver usando uma ROM ou kernel customizada, tente contatar o desenvolvedor dessa para lhe informar que os arquivo de estados é ilegivel.</string>
-    <string name="reset_timers">Reiniciar contagem</string>
-    <string name="restore_timers">Restaurar contagem</string>
-    <string name="toast">Atualizar estados</string>
-    <string name="about">Info</string>
-    <string name="thanks">Agradecimentos</string>
-    <string name="to_brandon_valosek">Um agradecimento especial a Brandon Valosek, desenvolvedor original do CPU Spy, pelo seu incrível app e por o fazer open source. Foi um dos meus primeiros apps Android que instalei, mas eu queria deixar as pessoas vessem o meu redesign do app. Mais un agradecimento a Nick Butcher e Roman Nurik pela inspiraçãpara o design com o projeto "Android Design in Action". Ultimos agradecimentos a Comunidade de Desenvolvedores XDA e HDBlog onde aprendi um pouco sobre desenvolvimento. E aos meus amigos do Androidiani, claro!</string>
-    <string name="sources">Fontes</string>
+    <string name="time_in_state">Использование частот</string>
+    <string name="kernel_info">Инфо об ядре</string>
+    <string name="unused_states">Неиспользуемые частоты ЦП</string>
+    <string name="error">"Файл с частотами не найден. Вы уверены что вашь телефон совместим? Если вы используете кастомную прошивку или ядро, сообщите разработчику что файл с частотами не считывается."</string>
+    <string name="reset_timers">Сбросить таймеры</string>
+    <string name="restore_timers">Восстановить таймеры</string>
+    <string name="toast">Обновить частоты</string>
+    <string name="about">Инфо</string>
+    <string name="thanks">Благодарности</string>
+    <string name="to_brandon_valosek">Особая благодарность Brandon Valosek - разработчику оригинальной CPU spy, за его замечательное приложение и за то, что оно с открытым исходным кодом. Это одно из первыйх приложений которое я установил, но я хотел показать его людям в новом облике. Так же выражаю благодарность Nick Butcher и Roman Nurik за дизайн. Последняя благодарность Сообществу разработчиков XDA и HDBlog где я узнал кое-что о развитии. И Androidiani друзья, конечно!</string>
+    <string name="sources">Исходники</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
     <string name="sources_text3">CPU Spy Reborn</string>
-    <string name="sources_text4">Mirko Dimartino também conhecido por Mirko ddd</string>
+    <string name="sources_text4">Mirko Dimartino ака Mirko ddd</string>
+    <string name="device">Устройство</string>
+    <string name="contributors">Авторы</string>
+    <string name="translators">Переводчики</string>
+    <string name="testers">Тестеры</string>
 </resources>
