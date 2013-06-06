@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Reborn</string>
+    <string name="time_in_state">Durumda geçen zaman</string>
+    <string name="kernel_info">Kernel Bilgisi</string>
+    <string name="unused_states">Kullanılmayan CPU durumları</string>
+    <string name="error">Durum dosyası bulunamadı. Telefonunuzun uyumlu olduğundan emin isiniz?\n\nEğer custom ROM ya da kernel kullanıyorsanız, yapımcıyı durum dosyasının okunamadığı konusunda bilgilendiriniz.</string>
+    <string name="reset_timers">Zamanları sıfırla</string>
+    <string name="restore_timers">Zamaları geri al</string>
+    <string name="toast">Durumları güncelle</string>
+    <string name="about">Bilgi</string>
+    <string name="thanks">Teşekkürler</string>
+    <string name="to_brandon_valosek">Orjinal CPU spy geliştiricisi Brandon Valosek’e uygulaması ve onu açık kaynak haline getirmesi nedeniyle özel bir teşekkür ederim. Uygulama yüklediğim ilk uygulamaydı ve ben de uygulamayı herkesin benim gözlerimden görmesini istediğimden tekrardan tasarladım.  "Android Design in Action" serileriyle dizayn açısından ilham kaynağım olan Nick Butcher ve Roman Nurik’e  de teşekkür ederim. Ve son olarak XDA Developer ve HDBlog toplululuklarına geliştirme konusundaki bana kattıkları nedeniyle teşekkür ederim. Ve Androidiani arkadaşları unutmamalı!</string>
+    <string name="sources">Kaynaklar</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
+    <string name="sources_text4">Mirko Dimartino nam-ı diğer Mirko ddd</string>
+    <string name="device">Cihaz</string>
+    <string name="mem">Bellek</string>
+    <string name="contributors">Katkı sağlayanlar</string>
+    <string name="translators">Çevirmenler</string>
+    <string name="testers">Denekler</string>
+</resources>
