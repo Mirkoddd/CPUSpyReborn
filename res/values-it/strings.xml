@@ -17,4 +17,6 @@
     <string name="contributors">Contributori</string>
     <string name="translators">Traduttori</string>
     <string name="testers">Testers</string>
+    <string name="sh_title">Premi il tempo totale</string>
+    <string name="sh_summary">per aggiornare le frequenze.</string>
 </resources>

@@ -106,8 +106,50 @@
 
             </FrameLayout>
             
+            <Space 
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
             
-            
+            <FrameLayout 
+                android:layout_width="match_parent"
+                android:layout_height="46dp">
+                
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"        
+                    android:textSize="23dp"
+                    android:textColor="#CCFF8800"
+                    android:text="Showcase View library" />
+                
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"        
+                    android:textColor="#808080"
+                    android:textSize="13dp"
+                    android:text="Espiandev" />
+
+                <ImageButton
+                    android:id="@+id/sv_lib_source"
+                    android:layout_width="46dp"
+                    android:background="@drawable/selectable_background_cpuorange"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/github_button" />
+                    
+                </LinearLayout>
+
+            </FrameLayout>            
         </LinearLayout>
     </ScrollView>
 

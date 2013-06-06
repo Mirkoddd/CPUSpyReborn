@@ -4,17 +4,17 @@ package com.mirko.csr;
 
 
 
-import com.mirko.csr.fragments.Sources;
-import com.mirko.csr.fragments.TestersAndTranslators;
-import com.mirko.csr.fragments.Thanks;
-import com.mirko.csr.ui.DepthAnimation;
-import com.mirko.csr.ui.TabsAdapter;
-
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+
+import com.mirko.csr.fragments.Sources;
+import com.mirko.csr.fragments.TestersAndTranslators;
+import com.mirko.csr.fragments.Thanks;
+import com.mirko.csr.ui.DepthAnimation;
+import com.mirko.csr.ui.TabsAdapter;
 
 public class AboutFragment extends FragmentActivity{
 	
@@ -33,7 +33,6 @@ public class AboutFragment extends FragmentActivity{
 
         mViewPager.setPageTransformer(true, new DepthAnimation());
 
- 
     }
 
     private void setupTabs()

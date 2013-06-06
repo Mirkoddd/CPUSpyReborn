@@ -21,4 +21,6 @@
     <string name="contributors">Contributors</string>
     <string name="translators">Translators</string>
     <string name="testers">Testers</string>
+    <string name="sh_title">Tap total time</string>
+    <string name="sh_summary">to refresh states.</string>
 </resources>
