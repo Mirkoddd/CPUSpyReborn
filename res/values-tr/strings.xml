@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">CPU Spy Reborn</string>
     <string name="time_in_state">Durumda geçen zaman</string>
-    <string name="kernel_info">Kernel Bilgisi</string>
+    <string name="kernel_info">Kernel bilgisi</string>
     <string name="unused_states">Kullanılmayan CPU durumları</string>
     <string name="error">Durum dosyası bulunamadı. Telefonunuzun uyumlu olduğundan emin isiniz?\n\nEğer custom ROM ya da kernel kullanıyorsanız, yapımcıyı durum dosyasının okunamadığı konusunda bilgilendiriniz.</string>
     <string name="reset_timers">Zamanları sıfırla</string>
@@ -20,5 +20,5 @@
     <string name="mem">Bellek</string>
     <string name="contributors">Katkı sağlayanlar</string>
     <string name="translators">Çevirmenler</string>
-    <string name="testers">Denekler</string>
+    <string name="testers">Deneyenler</string>
 </resources>
