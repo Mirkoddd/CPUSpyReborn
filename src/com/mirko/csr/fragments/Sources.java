@@ -15,12 +15,12 @@ import android.widget.ImageButton;
 import com.mirko.csr.R;
 
 public class Sources extends Fragment {
-	
+
     private ImageButton mBrandonSource;
     private ImageButton mMirkoSource;
+    private ImageButton mEspiandevSource;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
 
 		View sourcesView = inflater.inflate(R.layout.sources, null);
 
@@ -39,6 +39,16 @@ public class Sources extends Fragment {
             @Override
             public void onClick(View v) {
             	Uri uri = Uri.parse("https://github.com/mirkoddd/cpuspyreborn");
+            	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            	 startActivity(intent);
+            }
+        });
+
+		mEspiandevSource = (ImageButton) sourcesView.findViewById(R.id.sv_lib_source);
+		mEspiandevSource.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            	Uri uri = Uri.parse("https://github.com/Espiandev/ShowcaseView");
             	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             	 startActivity(intent);
             }

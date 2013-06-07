@@ -26,17 +26,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.espiandev.showcaseview.ShowcaseView;
 import com.mirko.csr.util.CPUSpyRebornTool;
 import com.mirko.csr.util.CpuStateMonitor;
 import com.mirko.csr.util.CpuStateMonitor.CpuState;
 import com.mirko.csr.util.CpuStateMonitor.CpuStateMonitorException;
 
 /** main activity class */
-public class MainActivity extends Activity
-{
+public class MainActivity extends Activity {
+	
     private static final String TAG = "Cpu Spy Reborn";
 
     private CpuSpyReborn _app = null;
+    ShowcaseView sv;
 
     // the views
     private GridLayout    _uiStatesView = null;
@@ -53,6 +55,7 @@ public class MainActivity extends Activity
 
     /** whether or not we're updating the data in the background */
     private boolean     _updatingData = false;
+	boolean alreadyShowcased = false;
 
     /** Initialize the Activity */
     @Override public void onCreate(Bundle savedInstanceState)
@@ -97,6 +100,20 @@ public class MainActivity extends Activity
 
         if (savedInstanceState != null) {
             _updatingData = savedInstanceState.getBoolean("updatingData");
+        }
+        
+        boolean firstrun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("firstrun", true);
+        if (firstrun){
+
+            ShowcaseView.ConfigOptions co = new ShowcaseView.ConfigOptions();
+            co.hideOnClickOutside = false;
+
+            sv = ShowcaseView.insertShowcaseView(R.id.ui_total_state_time, this, getString(R.string.sh_title), getString(R.string.sh_summary), co);
+
+            getSharedPreferences("PREFERENCE", MODE_PRIVATE)
+                .edit()
+                .putBoolean("firstrun", false)
+                .commit();
         }
     }
 
@@ -340,7 +357,5 @@ public class MainActivity extends Activity
     private void log(String s) {
         Log.d(TAG, s);
     }
-
-
 
 }
