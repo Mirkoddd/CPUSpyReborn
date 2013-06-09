@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">CPU Spy Reborn</string>
     <string name="time_in_state">Čas ve stavu</string>
     <string name="kernel_info">Informace o jádru</string>
-    <string name="unused_states">Nepoužité CPU stavy</string>
-    <string name="error">Nenalezen soubor se stavy. Jste si jist, že Vaše zařízení je kompatibilní?\n\nPokud používáte custom ROM nebo jádro, zkuste kontaktovat jejich vývojáře a zeptat se ho proč soubor se stavy nelze číst.</string>
+    <string name="unused_states">Nepoužité stavy CPU</string>
+    <string name="error">Nenalezen soubor se stavy. Jste si jisti, že Vaše zařízení je kompatibilní?\n\nPokud používáte custom ROM nebo kernel, zkuste kontaktovat jejich vývojáře a zeptat se ho, proč soubor se stavy nelze číst.</string>
     <string name="reset_timers">Resetovat časovače</string>
     <string name="restore_timers">Obnovit časovače</string>
     <string name="toast">Aktualizace stavů</string>
     <string name="about">Informace</string>
     <string name="thanks">Poděkování</string>
-    <string name="to_brandon_valosek">Speciální poděkování patří původnímu CPU Spy vývojáři Brandonovi Valosekovi za to, že vytvořil nádhernou aplikaci a zveřejnil její zdrojové kódy. Tato aplikace byla jedna z prvních Android aplikací, které jsem nainstaloval, a proto jsem její design předělal na modernější. Poděkování také patří Nickovi Butcherovi a Romanovi Nurikovi za designovou inspiraci v jejich sériích "Android Design in Action". Poslední poděkování patří XDA komunitě a HDBlogu, kde jsem se naučil něco o vývoji Android aplikací. A přátelům z Androidiani samozřejmě!</string>
+    <string name="to_brandon_valosek">Speciální poděkování patří původnímu vývojáři CPU Spy Brandonovi Valosekovi za to, že vytvořil nádhernou aplikaci a zveřejnil její zdrojové kódy. Tato aplikace byla jedna z prvních Android aplikací, které jsem nainstaloval, a proto jsem její design předělal na modernější. Poděkování také patří Nickovi Butcherovi a Romanu Nurikovi za designovou inspiraci z jejich sérií "Android Design in Action". Poslední poděkování patří XDA komunitě a HDBlogu, kde jsem se naučil něco o vývoji Android aplikací. A samozřejmě přátelům z Androidiani!</string>
     <string name="sources">Zdroje</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
     <string name="sources_text3">CPU Spy Reborn</string>
     <string name="sources_text4">Mirko Dimartino aka Mirko ddd</string>
-	<string name="device">Zařízení</string>
+    <string name="device">Zařízení</string>
+    <string name="mem">Paměť</string>
     <string name="contributors">Přispěvatelé</string>
     <string name="translators">Překladatelé</string>
     <string name="testers">Testeři</string>
+    <string name="sh_title">Dotkněte se celkového času</string>
+    <string name="sh_summary">pro obnovení statistik.</string>
 </resources>
