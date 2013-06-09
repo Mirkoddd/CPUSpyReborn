@@ -8,7 +8,7 @@
     <string name="reset_timers">Resetovat časovače</string>
     <string name="restore_timers">Obnovit časovače</string>
     <string name="toast">Aktualizace stavů</string>
-    <string name="about">Informace</string>
+    <string name="about">O aplikaci</string>
     <string name="thanks">Poděkování</string>
     <string name="to_brandon_valosek">Speciální poděkování patří původnímu vývojáři CPU Spy Brandonovi Valosekovi za to, že vytvořil nádhernou aplikaci a zveřejnil její zdrojové kódy. Tato aplikace byla jedna z prvních Android aplikací, které jsem nainstaloval, a proto jsem její design předělal na modernější. Poděkování také patří Nickovi Butcherovi a Romanu Nurikovi za designovou inspiraci z jejich sérií "Android Design in Action". Poslední poděkování patří XDA komunitě a HDBlogu, kde jsem se naučil něco o vývoji Android aplikací. A samozřejmě přátelům z Androidiani!</string>
     <string name="sources">Zdroje</string>
