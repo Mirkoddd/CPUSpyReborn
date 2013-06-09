@@ -4,13 +4,13 @@
     <string name="time_in_state">Time in State</string>
     <string name="kernel_info">Kernel Info</string>
     <string name="unused_states">Unused CPU states</string>
-    <string name="error">No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him that the states file is not readable.</string>
+    <string name="error">No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him, that the states file is not readable.</string>
     <string name="reset_timers">Reset Timers</string>
     <string name="restore_timers">Restore Timers</string>
     <string name="toast">Update States</string>
     <string name="about">Info</string>
     <string name="thanks">Thanks</string>
-    <string name="to_brandon_valosek">A special thank to Brandon Valosek, original CPU spy developer, for his wonderful app and for making it open source. It was one of my first android app I installed, but I wanted to let people look it through my eyes redesigning it. One more thank goes to Nick Butcher and Roman Nurik for design inspiration with "Android Design in Action" series. Last thanks go to XDA Developer Community and HDBlog where I learnt something about development. And Androidiani friends of course!</string>
+    <string name="to_brandon_valosek">A special thank to Brandon Valosek, original CPU Spy developer, for his wonderful app and for making it open source. It was one of my first android apps I installed, but I wanted to let people look it through my eyes redesigning it. One more thanks goes to Nick Butcher and Roman Nurik for design inspiration with "Android Design in Action" series. Last thanks go to XDA Developer Community and HDBlog where I learnt something about development. And Androidiani friends of course!</string>
     <string name="sources">Sources</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
@@ -21,6 +21,6 @@
     <string name="contributors">Contributors</string>
     <string name="translators">Translators</string>
     <string name="testers">Testers</string>
-    <string name="sh_title">Tap total time</string>
+    <string name="sh_title">Tap the total time</string>
     <string name="sh_summary">to refresh states.</string>
 </resources>
