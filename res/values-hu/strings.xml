@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Spy Újratöltve</string>
+    <string name="time_in_state">Állapotban töltött idő</string>
+    <string name="kernel_info">Kernel infó</string>
+    <string name="unused_states">Nem használt CPU állapotok</string>
+    <string name="error">Nem találom az állapotfájlt. Biztos, hogy az eszköz támogatja ezt a funkciót?\n\nHa egyedi ROM-ot vagy kernelt használsz, akkor próbáld meg jelezni a fejlesztőnek, hogy az állapotfájl nem olvasható.</string>
+    <string name="reset_timers">Időmérők nullázása</string>
+    <string name="restore_timers">Időmérők visszaállítása</string>
+    <string name="toast">Állapotok frissítése</string>
+    <string name="about">Névjegy</string>
+    <string name="thanks">Köszönet</string>
+    <string name="to_brandon_valosek">Külön köszönet Brandon Valoseknek, az eredeti CPU Spy fejlesztőjének, ezért a remek alkalmazásért, és hogy nyílt forráskódúvá tette. Az első alkalmazások között volt, amit feltelepítettem, de szerettem volna megmutatni az én szememen keresztül a kinézetét kicsit átszabva. További köszönet illeti Nick Butchert és Roman Nurikot az "Android Design in Action" sorozatukból merített ihletért. Végül, de nem utolsó sorban köszönök mindent az XDA fejlesztői közösségénk és a HDBlognak, mert sokat tanítottak nekem a fejlesztésről. És persze az Androidiani barátaimról se szabad megfeledkezni!</string>
+    <string name="sources">Források</string>
+    <string name="sources_text1">CPU Spy</string>
+    <string name="sources_text2">Brandon Valosek</string>
+    <string name="sources_text3">CPU Spy Újratöltve</string>
+    <string name="sources_text4">Mirko Dimartino alias Mirko ddd</string>
+    <string name="device">Eszköz</string>
+    <string name="mem">Memória</string>
+    <string name="contributors">Közreműködők</string>
+    <string name="translators">Fordítók</string>
+    <string name="testers">Tesztelők</string>
+    <string name="sh_title">Érintsd meg a teljes időt</string>
+    <string name="sh_summary">az állapotok frissítéséhez.</string>
+</resources>
