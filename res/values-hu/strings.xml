@@ -10,11 +10,11 @@
     <string name="toast">Állapotok frissítése</string>
     <string name="about">Névjegy</string>
     <string name="thanks">Köszönet</string>
-    <string name="to_brandon_valosek">Külön köszönet Brandon Valoseknek, az eredeti CPU Spy fejlesztőjének, ezért a remek alkalmazásért, és hogy nyílt forráskódúvá tette. Az első alkalmazások között volt, amit feltelepítettem, de szerettem volna megmutatni az én szememen keresztül a kinézetét kicsit átszabva. További köszönet illeti Nick Butchert és Roman Nurikot az "Android Design in Action" sorozatukból merített ihletért. Végül, de nem utolsó sorban köszönök mindent az XDA fejlesztői közösségénk és a HDBlognak, mert sokat tanítottak nekem a fejlesztésről. És persze az Androidiani barátaimról se szabad megfeledkezni!</string>
+    <string name="to_brandon_valosek">Külön köszönet Brandon Valoseknek, az eredeti CPU Spy fejlesztőjének, ezért a remek alkalmazásért, és hogy nyílt forráskódúvá tette. Az első alkalmazások között volt, amit feltelepítettem, de szerettem volna megmutatni az én szememen keresztül a kinézetét kicsit átszabva. További köszönet illeti Nick Butchert és Roman Nurikot az "Android Design in Action" sorozatukból merített ihletért. Végül, de nem utolsó sorban köszönök mindent az XDA fejlesztői közösségének és a HDBlognak, mert sokat tanítottak nekem a fejlesztésről. És persze az Androidiani barátaimról se szabad megfeledkezni!</string>
     <string name="sources">Források</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
-    <string name="sources_text3">CPU Spy Újratöltve</string>
+    <string name="sources_text3">CPU Spy Reborn</string>
     <string name="sources_text4">Mirko Dimartino alias Mirko ddd</string>
     <string name="device">Eszköz</string>
     <string name="mem">Memória</string>
