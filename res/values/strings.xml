@@ -10,7 +10,7 @@
     <string name="toast">Update States</string>
     <string name="about">Info</string>
     <string name="thanks">Thanks</string>
-    <string name="to_brandon_valosek">A special thank to Brandon Valosek, original CPU Spy developer, for his wonderful app and for making it open source. It was one of my first android apps I installed, but I wanted to let people look it through my eyes redesigning it. One more thanks goes to Nick Butcher and Roman Nurik for design inspiration with "Android Design in Action" series. Last thanks go to XDA Developer Community and HDBlog where I learnt something about development. And Androidiani friends of course!</string>
+    <string name="to_brandon_valosek">A special thanks to Brandon Valosek, original CPU Spy developer, for his wonderful app and for making it open source. It was one of my first android apps I ever installed, but I wanted to let people look at it through my eyes redesigning it. One more thanks goes to Nick Butcher and Roman Nurik for design inspiration with "Android Design in Action" series. Last thanks go to XDA Developer Community and HDBlog where I learnt something about development. And Androidiani friends of course!</string>
     <string name="sources">Sources</string>
     <string name="sources_text1">CPU Spy</string>
     <string name="sources_text2">Brandon Valosek</string>
