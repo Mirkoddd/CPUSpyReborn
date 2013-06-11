@@ -118,6 +118,15 @@
             android:fontFamily="sans-serif-condensed"        
             android:textColor="#808080"
             android:textSize="20sp" />
+            
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="dapil"
+            android:fontFamily="sans-serif-condensed"        
+            android:textColor="#808080"
+            android:textSize="20sp" />            
         
         <TextView
             style="?android:attr/listSeparatorTextViewStyle"
