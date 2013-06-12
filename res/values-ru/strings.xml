@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Привет народ!</string>
     <string name="app_name">CPU Spy Reborn</string>
     <string name="time_in_state">Использование частот</string>
     <string name="kernel_info">Информация об ядре</string>
@@ -18,7 +17,10 @@
     <string name="sources_text3">CPU Spy Reborn</string>
     <string name="sources_text4">Mirko Dimartino ака Mirko ddd</string>
     <string name="device">Устройство</string>
+    <string name="mem">Память</string>
     <string name="contributors">Авторы</string>
     <string name="translators">Переводчики</string>
     <string name="testers">Тестеры</string>
+	<string name="sh_title">Нажмите на общее время</string>
+	<string name="sh_summary">для обновления.</string>
 </resources>
