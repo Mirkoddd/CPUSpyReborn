@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="time_in_state">Čas v stave</string>
+    <string name="time_in_state">Stavy v čase</string>
     <string name="kernel_info">Informácie o jadre</string>
-    <string name="unused_states">Nepoužité CPU stavy</string>
+    <string name="unused_states">Nevyužité stavy CPU</string>
     <string name="error">Nenájdený súbor so stavmi. Ste si istý, že Vaše zariadenie je kompatibilné?\n\nAk používate custom ROM alebo jadro, skúste kontaktovať ich vývojára a spýtať sa ho prečo súbor so stavmi nie je možné čítať.</string>
     <string name="reset_timers">Resetovať počítadlá</string>
     <string name="restore_timers">Obnoviť počítadlá</string>
@@ -27,4 +27,5 @@
     <string name="testers">Testeri</string>
     <string name="sh_title">Kliknite na celkový čas</string>
     <string name="sh_summary">pre aktualizáciu stavov.</string>
+    <string name="freq_range">Rozsah frekvencií</string>
 </resources>
